@@ -27,8 +27,10 @@ Do not assume that the textbook MIT license applies to every file in this reposi
 
 MNIST training/test data are downloaded separately when scripts are run; the dataset files are **not redistributed** in this repository. Third-party Python libraries are installed separately and retain their own licenses.
 
-## 4. Item requiring provenance confirmation before public release
+## 4. Model checkpoint provenance
 
-The archived file `01-neural-network-foundations/results/checkpoints/deep_convnet_params.pkl` is **not byte-identical** to the checkpoint in the official textbook repository. Its exact provenance has not been established. Confirm that it was independently trained or otherwise lawfully obtained before making this repository public. If its provenance cannot be established, exclude it **from the Git history that will become public** (removing it in a later commit alone is insufficient).
+The repository owner confirms that `01-neural-network-foundations/results/checkpoints/deep_convnet_params.pkl` contains **model weights produced by their own training**, using a textbook-style DeepConvNet implementation. It is not presented as the textbook author's pretrained checkpoint. The architecture and any reused or adapted source code remain attributed to the textbook under its MIT License. Ownership of the trained weights does **not** imply ownership of any underlying third-party training dataset.
+
+This provenance statement is based on the owner's confirmation; the training run itself has not been independently reproduced as part of this licensing review.
 
 For future modules, review all third-party code, datasets, images, and model weights before publishing and record applicable licenses and credits.
