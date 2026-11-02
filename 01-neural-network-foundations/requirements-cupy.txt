@@ -1,0 +1,3 @@
+-r requirements.txt
+# Use a CuPy wheel matching your CUDA version. For CUDA 12.x:
+cupy-cuda12x[ctk]
