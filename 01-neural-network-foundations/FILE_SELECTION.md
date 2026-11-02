@@ -32,7 +32,7 @@ The uploaded archive mixed textbook source, personal experiments, outputs, data 
 
 - All seven CSVs in `ch05/` and **all** files from `ch05/hyperparameter_plots/` (57 PNGs plus five summary CSVs and a TXT).
 - `ch08/epoch_accuracy.csv`, `epoch_accuracy.png`, `cupy_training_timing.txt`.
-- Three checkpoints: `my_convnet_params.pkl`, `my_params_cupy.pkl`, `deep_convnet_params.pkl`.
+- Three checkpoints: `my_convnet_params.pkl`, `my_params_cupy.pkl`, `deep_convnet_params.pkl`. The owner confirms that all three checkpoints were trained by the owner; `deep_convnet_params.pkl` was not copied from the textbook pretrained checkpoint.
 
 ## E — Excluded from curated project
 

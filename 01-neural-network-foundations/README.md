@@ -15,7 +15,7 @@ This is **not** a mirror of the textbook repository. Personal experiments are se
 | `common/`, `dataset/` | **Book-derived** shared modules and MNIST loader needed by the experiments |
 | `results/hyperparameters/` | Original CSVs and 57 original hyperparameter charts |
 | `results/cnn/` | Original epoch accuracy CSV/PNG and CuPy timing log |
-| `results/checkpoints/` | Archived model checkpoints, including a book-style baseline |
+| `results/checkpoints/` | Archived model checkpoints, including an owner-trained textbook-style DeepConvNet baseline |
 | `outputs/` | **Generated locally**, ignored by Git, never overwrites archived results |
 
 ## Main experiments
@@ -105,4 +105,4 @@ The custom `MyConvNet` is: Conv(1→32, 3×3) → ReLU → Conv(32→32, 3×3) �
 
 Only **pre-NLP** work is included. No CBOW, word embeddings, RNN, Transformer or other second-book NLP work is included.
 
-`common/`, `dataset/mnist.py`, `experiments/hyperparameters/two_layer_net.py`, `experiments/cnn/deep_convnet.py`, `experiments/learning_exercises/ch04/gradient_2d.py`, and the small pretrained example checkpoint are textbook-derived or baseline materials. Other scripts may also be adapted from textbook exercises. See the original book license in `third_party/BOOK_LICENSE.md`. A license for the user's own contributions has **not** been selected.
+`common/`, `dataset/mnist.py`, `experiments/hyperparameters/two_layer_net.py`, `experiments/cnn/deep_convnet.py`, `experiments/learning_exercises/ch04/gradient_2d.py`, and the small pretrained example checkpoint are textbook-derived or baseline materials. Other scripts may also be adapted from textbook exercises. See the original book license in `third_party/BOOK_LICENSE.md`. A license for the owner's original contributions has **not** been selected. The three checkpoints under `results/checkpoints/` were trained by the owner, while textbook-style architectures and reused code remain attributed to Koki Saitoh. See the [repository-wide copyright notice](../NOTICE.md).
