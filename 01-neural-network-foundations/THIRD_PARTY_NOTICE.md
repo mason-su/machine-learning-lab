@@ -6,6 +6,6 @@ This curated repository contains material from Koki Saitoh's *Deep Learning from
 
 **User experiment code**: the major hyperparameter sweeps, architecture-width/depth experiments, regularisation comparisons, custom CNN, CuPy port, PyTorch implementation, and analysis scripts were identified from this user's archive. "User experiment code" is a classification of work in the archive, not a claim that every line was independently written without using book examples or earlier assistant assistance.
 
-**Checkpoints**: `results/checkpoints/deep_convnet_params.pkl` is used as a book-style DeepConvNet baseline; the exact provenance of this checkpoint cannot be established from the archive alone. The other two are archived NumPy/CuPy MyConvNet weights.
+**Checkpoints**: The repository owner confirms that `results/checkpoints/deep_convnet_params.pkl` contains weights produced by their own training of a textbook-style DeepConvNet; it is not claimed to be the book's pretrained checkpoint. The underlying architecture and any reused textbook code remain attributed to Koki Saitoh. The other two files are archived NumPy/CuPy MyConvNet weights. This provenance statement is based on the owner's confirmation, not independent reproduction.
 
 The user has not selected a license for their original contributions. **Do not interpret the retained textbook MIT license as an explicit license for all original material in this curated repository.**
