@@ -18,6 +18,15 @@ This is **not** a mirror of the textbook repository. Personal experiments are se
 | `results/checkpoints/` | Archived model checkpoints, including an owner-trained textbook-style DeepConvNet baseline |
 | `outputs/` | **Generated locally**, ignored by Git, never overwrites archived results |
 
+
+## New: MNIST Core grid study (6,300 configurations)
+
+The expanded PyTorch MLP study investigates the full factorial grid of **depth × width × batch size × learning rate**, holding network shape constant. It documents **numerical divergence, effective learning, validation performance, overfitting-like loss trajectories, train–validation generalization gaps, late training collapse and accuracy–compute trade-offs**.
+
+**[Read the complete Core study with 15 figures →](experiments/hyperparameters/core_study/README.md)**
+
+Results: **6,300 configurations; 5,169 completed; 1,131 non-finite-loss failures**. Each configuration was run once for up to 20 epochs with a fixed seed. **These are validation results, not independent test-set results.** The original large CSV outputs and local training runner are not yet part of the published repository; the report contains aggregate figure data, not a claim of full end-to-end reproduction.
+
 ## Main experiments
 
 1. **Hidden layer size:** `experiments/hyperparameters/train_2.py` → `results/hyperparameters/hidden_size_experiment.csv` (8 configurations). The archived CSV exists, but the current script prints rather than exports results.
